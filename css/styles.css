@@ -156,6 +156,7 @@ p {
     gap: 40px 20px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 25px;
 }
 
 .opracht_pursuit {
@@ -342,7 +343,7 @@ p {
     margin-bottom: 40px;
 }
 
-.Image_header_Pursuit{
+.Image_header_Pursuit {
     width: 20%;
 }
 
@@ -355,9 +356,10 @@ p {
 }
 
 .cv_button-container {
-    margin-top: 10%;
+    margin-top: 20vh;
     display: flex;
     justify-content: center;
+    margin-bottom: 50vh;
 }
 
 .cv_button {
@@ -381,4 +383,112 @@ p {
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
+}
+
+.main-side_footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background: -webkit-linear-gradient(0deg, rgba(67, 120, 80, 1) 0%, rgba(56, 168, 95, 1) 100%);
+    min-height: 20px;
+    padding: 30px;
+}
+
+h5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    text-align: center;
+    color: black;
+}
+
+.mail {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.mailtitle {
+    padding-right: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.mailadress {
+    color: black;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+
+    .logo-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-side {
+        min-height: 100px;
+        padding: 0% 20%;
+
+    }
+
+    .nav-menu>ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .Opdrachten_alinea_container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .reflectie {
+        margin: 0;
+    }
+
+    .alinea {
+        margin: 0%;
+    }
+
+    .alinea>p {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+    .opracht_pursuit,
+    .opracht_gi,
+    .opracht_IoT,
+    .opracht_scan,
+    .opracht_Songtekst,
+    .opracht_Programeren,
+    .opracht_XR {
+        max-width: 100%;
+        min-height: 200px;
+        width: 80%;
+
+    }
+
+    .text_overlay {
+        margin: 0 5%;
+        font-size: 14px;
+    }
+
+    .inleiding {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+    h1, h2, h3, h4, h5, h6{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
